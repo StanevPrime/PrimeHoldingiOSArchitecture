@@ -62,10 +62,7 @@ Where possible, the View Model's Input/Output should be directly connected to th
 ## ViewModel Composition
 
 If a screen has a variety of functionalities, or one complex functionality, it should be split up into separate View Models that can be easily **reused**.
-For more information, refer to [ViewModel Composition](./Documentation/ViewModelComposition.md).
 
 ## Repository
 The repository pattern is a design pattern that isolates data access behind interface abstractions. Connecting to the database, Cache, Web Service and manipulating data storage objects is performed through methods provided by the interface's implementation.
 Each Repository contains methods that returns Observables. The idea behind is that when the ViewModel asks for some data the Repository will retrieve from any data source and will provide it in timely manner but not immediately, therefore all repository's methods should return **Observable**
-
-![Alt text](images/Repository.png "Repository")

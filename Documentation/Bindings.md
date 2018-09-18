@@ -16,7 +16,7 @@ fileprivate extension DetailsViewModelOutput {
 }
 
 ```
-For example, assume a View is visible/gone depending on a View Model output stream:
+For example, assume a View is Label that should update according to a View Model output stream:
 ```
 details.drive(viewController.detailsLabel.rx.text),
 ```
