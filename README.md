@@ -54,7 +54,7 @@ The above setup improves readability and allows implementing **bindings** for ou
 In order to glue View Layer (ViewController/View) with a ViewModels a ViewModelOutput/ViewModelInput extensions function should be implemented
 
 ### View Data Bindings
-Where possible, the View Model's Input/Output should be directly connected to the View Binding via extension function. [ RxBinding](https://github.com/JakeWharton/RxBinding) is an extremely helpful tool for that purpose.
+Where possible, the View Model's Input/Output should be directly connected to the View Binding via extensions. [RxCocoa](https://github.com/ReactiveX/RxSwift/tree/master/RxCocoa/iOS) is an extremely helpful tool for that purpose.
 
 [Read More](Documentation/Bindings.md)
 
