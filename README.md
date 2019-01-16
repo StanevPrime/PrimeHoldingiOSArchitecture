@@ -19,7 +19,7 @@ A ViewController or a View, with their layout, represents the **view layer**. Th
 * Observe (or subscribe to) a **ViewModel** outputs (observables) to get data in order to update UI elements accordingly
 * Delegate user actions to a **ViewModel** via ViewModel's inputs (methods)
 
-[ViewController example](https://gitlab.programista.pro/codebase/mobile-iOS/sample-app/blob/master/Test1/ViewControllers/DetailsViewController.swift)
+[ViewController example](https://github.com/StanevPrime/PrimeHoldingiOSTemplatesSample/blob/master/Test1/ViewControllers/DetailsViewController.swift)
 
 ## ViewModel
 The view model is an abstraction of the view exposing **outputs** (observables) and **inputs** (methods). Each ViewModel should encapsulate the business logic in a way that it could be reused across the entire app.
@@ -33,7 +33,7 @@ The following rules have to be considered when a ViewModel is being implemented:
 * All outputs have to be initialized inside init body
 * For better readability **custom operators** have to be implemented to serve specific Observable needs
 
-[ViewModel example](https://gitlab.programista.pro/codebase/mobile-iOS/sample-app/blob/master/Test1/ViewModels/DetailsViewModel.swift)
+[ViewModel example](https://github.com/StanevPrime/PrimeHoldingiOSTemplatesSample/blob/master/Test1/ViewModels/DetailsViewModel.swift)
 
 ### Inputs
 *  ViewModelInput is an interface that groups all inputs (methods) that the ViewModel should implement
